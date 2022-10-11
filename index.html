@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+      <title>Animal Sound Guesser </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+      <div class="col-xs-12 header_div text-center">
+        <h2>
+            Animal Sound Guesser
+        </h2>
+        <p>
+          Note: Play diffrent sounds like moo, woof, meow and roar.
+        </p>
+      </div>
+      <div class="main_div">
+        <center>
+          <br>
+          <button class="btn btn-warning" onclick="startClassification();">
+              Start
+          </button>
+          <h4 id="result_label">
+            Heard Moo-
+            <br>
+            <br>    
+            Heard Meow-
+            <br>
+            <br>     
+            Heard Woof-
+            <br>
+            <br>  
+            Heard Roar-  
+          </h4>
+          <h3 id="result_confidence">
+            Sound- 
+          </h3>
+          <br>
+          <img src="download (7).png" id="alien1" width="300" height="300">
+        </center>
+      </div>
+      <div class="copy_right_footer">
+        Devoloped By- Yuvaan Singh Chouhan
+      </div>
+  <script src="main.js"></script>
+    </body>
+  </html>
+  
+  
